@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  gitpoc:
+    image: ${DOCKER_REGISTRY}gitpoc
+    build:
+      context: .\GitPOC
+      dockerfile: Dockerfile
